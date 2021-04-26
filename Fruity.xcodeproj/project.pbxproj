@@ -11,6 +11,7 @@
 		883E03D6263632D70019007B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E03D5263632D70019007B /* ContentView.swift */; };
 		883E03D8263632DC0019007B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883E03D7263632DC0019007B /* Assets.xcassets */; };
 		883E03DB263632DC0019007B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883E03DA263632DC0019007B /* Preview Assets.xcassets */; };
+		883E03E926363D770019007B /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883E03E826363D770019007B /* FruitCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		883E03D7263632DC0019007B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		883E03DA263632DC0019007B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		883E03DC263632DC0019007B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883E03E826363D770019007B /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,8 @@
 		883E03D2263632D70019007B /* Fruity */ = {
 			isa = PBXGroup;
 			children = (
-				883E03D3263632D70019007B /* FruityApp.swift */,
-				883E03D5263632D70019007B /* ContentView.swift */,
+				883E03E726363D4E0019007B /* View */,
+				883E03E426363D1B0019007B /* App */,
 				883E03D7263632DC0019007B /* Assets.xcassets */,
 				883E03DC263632DC0019007B /* Info.plist */,
 				883E03D9263632DC0019007B /* Preview Content */,
@@ -67,6 +69,23 @@
 				883E03DA263632DC0019007B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		883E03E426363D1B0019007B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				883E03D3263632D70019007B /* FruityApp.swift */,
+				883E03D5263632D70019007B /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		883E03E726363D4E0019007B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				883E03E826363D770019007B /* FruitCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883E03E926363D770019007B /* FruitCardView.swift in Sources */,
 				883E03D6263632D70019007B /* ContentView.swift in Sources */,
 				883E03D4263632D70019007B /* FruityApp.swift in Sources */,
 			);
@@ -277,7 +297,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fruity.ios.Fruity;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anis-agwan.ios.Fruity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fruity.ios.Fruity;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anis-agwan.ios.Fruity";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
