@@ -20,6 +20,7 @@
 		8861D0C526378228001A2C94 /*  FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861D0C426378228001A2C94 /*  FruitDetailView.swift */; };
 		8861D0C8263786D8001A2C94 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861D0C7263786D8001A2C94 /* FruitHeaderView.swift */; };
 		8861D0CB26378A72001A2C94 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861D0CA26378A72001A2C94 /* SourceLinkView.swift */; };
+		8861D0CE26379132001A2C94 /* NutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8861D0CD26379132001A2C94 /* NutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8861D0C426378228001A2C94 /*  FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " FruitDetailView.swift"; sourceTree = "<group>"; };
 		8861D0C7263786D8001A2C94 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		8861D0CA26378A72001A2C94 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		8861D0CD26379132001A2C94 /* NutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				8861D0C1263772D1001A2C94 /* FruitRowView.swift */,
 				8861D0C7263786D8001A2C94 /* FruitHeaderView.swift */,
 				8861D0CA26378A72001A2C94 /* SourceLinkView.swift */,
+				8861D0CD26379132001A2C94 /* NutrientsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8861D0BF26376C5D001A2C94 /* FruitData.swift in Sources */,
+				8861D0CE26379132001A2C94 /* NutrientsView.swift in Sources */,
 				8861D0CB26378A72001A2C94 /* SourceLinkView.swift in Sources */,
 				883E03E926363D770019007B /* FruitCardView.swift in Sources */,
 				8861D0C2263772D2001A2C94 /* FruitRowView.swift in Sources */,
